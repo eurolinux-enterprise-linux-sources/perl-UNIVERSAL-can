@@ -1,6 +1,6 @@
 Name:           perl-UNIVERSAL-can
 Version:        1.20120726
-Release:        2%{?dist}
+Release:        3%{?dist}
 Summary:        Hack around people calling UNIVERSAL::can() as a function
 Group:          Development/Libraries
 License:        GPL+ or Artistic
@@ -47,6 +47,9 @@ PERL_RUN_ALL_TESTS=1 make test
 %{_mandir}/man3/*.3*
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1.20120726-3
+- Mass rebuild 2013-12-27
+
 * Thu Feb 14 2013 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 1.20120726-2
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_19_Mass_Rebuild
 
